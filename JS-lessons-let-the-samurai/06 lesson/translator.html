@@ -7,26 +7,30 @@
 <body>
 <h1></h1>
 <script>
-let word0 = "Wassup";
-let word0translation = "Здарова";
+const word0 = "Wassup";
+const word0translation = "Здарова";
 
-let word1 = "Bye";
-let word1translation = "Покеда";
+const word1 = "Bye";
+const word1translation = "Покеда";
 
-let word2 = "Programmer";
-let word2translation = "Программист";
+const word2 = "Programmer";
+const word2translation = "Программист";
 
-let finishMessage = "Молодец!";
+const wordsCount = 3;
+
+const finishMessage = "Молодец!";
+
+let correctAnswersCount = 0;
 
 // ----------
 
-let userAnswer0 = prompt(word0); // 0
+const userAnswer0 = prompt(word0); // 0
 alert(userAnswer0 === word0translation);
 
-let userAnswer1 = prompt(word1); // 1
+const userAnswer1 = prompt(word1); // 1
 alert(userAnswer1 === word1translation);
 
-let userAnswer2 = prompt(word2); // 2
+const userAnswer2 = prompt(word2); // 2
 alert(userAnswer2 === word2translation);
 
 alert(finishMessage);
