@@ -18,7 +18,8 @@ const word2translation = "Программист";
 
 const wordsCount = 3;
 
-const finishMessage = "Молодец!";
+const finishSuccessMessage = "Молодец! Good job!";
+const finishUnsuccessMessage = "Молодец! Но старайся лучше!";
 
 let correctAnswersCount = 0;
 
@@ -42,7 +43,11 @@ if (userAnswer2 === word2translation) {
     correctAnswersCount = correctAnswersCount +1;
 };
 
-alert(finishMessage);
+if (correctAnswersCount / wordsCount * 100 > 50) {
+    alert(finishSuccessMessage);
+} else {
+        alert(finishUnsuccessMessage);
+};
 </script>
 </body>
 </html> 
