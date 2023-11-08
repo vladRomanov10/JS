@@ -1,0 +1,1 @@
+const myList = [["Books", 1], ["Toothpaste", 2], ["Beer", 10], ["Salt", 1], ["Chicken", 2]];
