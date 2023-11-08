@@ -23,7 +23,7 @@ const finishUnsuccessMessage = "Молодец! Но старайся лучше
 
 let correctAnswersCount = 0;
 
-const correctAnswersMinpercent = 50;
+const correctAnswersMinPercent = 50;
 
 // ----------
 
@@ -47,7 +47,7 @@ if (userAnswer2 === word2translation) {
 
 const userCorrectAnswersPercent = correctAnswersCount / wordsCount * 100
 
-if (userCorrectAnswersPercent > correctAnswersMinpercent) {
+if (userCorrectAnswersPercent > correctAnswersMinPercent) {
     alert(finishSuccessMessage);
 } else {
         alert(finishUnsuccessMessage);
