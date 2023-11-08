@@ -26,12 +26,21 @@ let correctAnswersCount = 0;
 
 const userAnswer0 = prompt(word0); // 0
 alert(userAnswer0 === word0translation);
+if (userAnswer0 === word0translation) {
+    correctAnswersCount = correctAnswersCount +1;
+};
 
 const userAnswer1 = prompt(word1); // 1
 alert(userAnswer1 === word1translation);
+if (userAnswer1 === word1translation) {
+    correctAnswersCount = correctAnswersCount +1;
+};
 
 const userAnswer2 = prompt(word2); // 2
 alert(userAnswer2 === word2translation);
+if (userAnswer2 === word2translation) {
+    correctAnswersCount = correctAnswersCount +1;
+};
 
 alert(finishMessage);
 </script>
