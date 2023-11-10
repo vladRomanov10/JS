@@ -1,0 +1,10 @@
+function getCount(str) {
+    let vowels;
+    let listOfVowels = ["a", "e", "i", "o", "u"];
+    for (let i = 0; i < str.length; i++) {
+        i++;
+        for (let z = 0; z < listOfVowels.length; z++) {
+            if str[z] === listOfVowels[z]
+        }
+  }
+}
