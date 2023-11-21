@@ -1,7 +1,7 @@
 function highAndLow(numbers) {
     const numbersWithoutSpaces = numbers.replaceAll(' ', ''); //Проблема с переводом строковых двухначных и более цифр
     const numbersArray = Array.from(numbersWithoutSpaces); // в массив как числа, число 10 переводится как 1 и 0
-    const comparisonNumber = numbersArray.length - 1;
+    const comparisonNumber = numbersArray.length - 1; // нужно разбить строку через str.split(' ')
     let numOfAdv = 0;
     let theBiggestNum = 0;
     let theLowestNum = 0;
